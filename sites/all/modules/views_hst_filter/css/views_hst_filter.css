@@ -1,0 +1,17 @@
+.ajax-loading {
+  background: url("ui-anim_basic_16x16.gif") no-repeat left top;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.views-hst-filter {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.views-hst-filter .form-item {
+  padding-right: 5px;
+}

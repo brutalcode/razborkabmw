@@ -1,0 +1,8 @@
+name = Views hst filter
+description = The filter with hierarchical select of taxonomy terms.
+package = Views
+core = 7.x
+version = 7.x-1.2
+
+dependencies[] = views
+files[] = views_hst_filter_handler_filter.inc

@@ -1,0 +1,151 @@
+<?php
+
+/**
+ * @file
+ * views_hst_filter module file
+ */
+
+
+/**
+ * Implements of hook_views_api().
+ */
+function views_hst_filter_views_api() {
+  return array(
+    'api' => 3,
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function views_hst_filter_menu() {
+  $items = array();
+
+  $items['ajax/views_hst_filter'] = array(
+    'title' => 'views_hst_filter',
+    'description' => 'views_hst_filter',
+    'page callback' => 'views_hst_filter_get_terms',
+    'access arguments' => array('access content'),
+    'type' => MENU_CALLBACK
+  );
+
+  return $items;
+}
+
+/**
+ * Callback для запроса ajax.
+ */
+function views_hst_filter_get_terms() {
+  $options = views_hst_filter_build_options_list($_POST['vid'], $_POST['tid'], $_POST['nodeCounter'], $_POST['hideEmpty']);
+
+  // Отправляем результат.
+  drupal_json_output($options);
+  drupal_exit();
+}
+
+/**
+ * Функция строит список терминов для селектов.
+ *
+ * @param int $vid
+ *   id словаря.
+ * @param int $parent
+ *   tid родительского термина.
+ * @return array
+ *   массив для использования в полях выбора типа 'select' или пустой, если
+ *   термины получить не удалось (например у $parent нет дочерних терминов).
+ */
+function views_hst_filter_build_options_list($vid, $parent = 0, $node_counter = FALSE, $hide_empty = FALSE) {
+  // Стандартное для Views получение формата метки для значения "Все"
+  // не сработает в drupal_json.
+  // Если мы возвращаем '<Any>', то drupal_json_output посчитает его кодом html.
+//  $old_any = variable_get('views_exposed_filter_any_label', 'old_any') == 'old_any';
+//  $any_label = $old_any ? '<Any>' : t('- Any -');
+  $any_label = t('- Any -');
+
+  $terms = taxonomy_get_tree($vid, $parent, 1);
+
+  // Data for select field.
+  $options = array();
+  foreach ($terms as $term) {
+    $term_name = $term->name;
+    // Если нам нужен счетчик нод - считаем.
+    if ($hide_empty || $node_counter) {
+      // Тип нод не учитывается.
+      $nodes = views_hst_filter_get_term_nodes_count($term->tid);
+      // "Пустые" термины пропускаем.
+      if ($hide_empty && 0 == $nodes) {
+        continue;
+      }
+      // Количество нод.
+      if ($node_counter) {
+        $term_name .= " ($nodes)";
+      }
+    }
+
+    // Некоторые браузеры отсортируют результат JSON по ключам,
+    // если они будут числовые. Чтобы этого избежать, делаем их строковыми.
+    $options['0' . $term->tid] = $term_name;
+  }
+
+  if (empty($options)) {
+    return array();
+  }
+  else {
+    return array('All' => $any_label) + $options;
+  }
+}
+  /**
+  * Get nodes count
+  * http://drupal.org/node/602240
+  *
+  * @param tid
+  *   Term ID
+  * @param child_count
+  *   TRUE - Also count all nodes in child terms (if they exists) - Default
+  *   FALSE - Count only nodes related to Term ID
+  */
+  function views_hst_filter_get_term_nodes_count($tid, $child_count = TRUE) {
+    $tids = array($tid);
+
+    if ($child_count){
+      $tids = array_merge($tids, views_hst_filter_term_get_children_ids($tid));
+    }
+
+    global $language;
+    $langs = array($language->language);
+    $langs[] = 'und';
+
+    $query = db_select('taxonomy_index', 't');
+    $query->condition('tid', $tids, 'IN');
+    $query->join('node', 'n', 't.nid = n.nid');
+    $query->condition('n.status', NODE_PUBLISHED, '=');
+    /*ToDo: Filter by content type*/
+    //$query->condition('n.type', 'node_type', '=');
+    $query->condition('n.language', $langs, 'IN');
+
+    $count = $query->countQuery()->execute()->fetchField();
+    return $count;
+  }
+
+   /**
+   * Retrieve ids of term children.
+   *
+   * @param $tid
+   *   The term's ID.
+   *
+   * @return array
+   *   An array where ids of term children will be added
+   */
+  function views_hst_filter_term_get_children_ids($tid) {
+    $children = taxonomy_get_children($tid);
+    $tids = array();
+
+    if (!empty($children)) {
+      foreach ($children as $child) {
+        $tids[] = $child->tid;
+        $tids = array_merge($tids, views_hst_filter_term_get_children_ids($child->tid));
+      }
+    }
+
+    return $tids;
+  }

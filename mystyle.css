@@ -1,0 +1,9 @@
+body.header-light .breadcrumb-wrapper {
+	display: none;
+}
+.front .view-apartments{
+	display: none;
+}
+.front h1.page-header{
+	display: none;
+}

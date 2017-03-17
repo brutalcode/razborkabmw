@@ -1,0 +1,101 @@
+# $Id$
+#
+# Russian translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  views_hst_filter.views.inc: n/a
+#  views_hst_filter_handler_filter.inc: n/a
+#  views_hst_filter.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-02-04 12:59-1100\n"
+"PO-Revision-Date: 2013-02-05 04:14+0400\n"
+"Last-Translator: \n"
+"Language-Team: Russian <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: views_hst_filter.views.inc:13
+msgid "Content"
+msgstr "Содержимое"
+
+#: views_hst_filter.views.inc:14
+msgid "Has a taxonomy term (with the hierarchy)"
+msgstr "Термины таксономии с иерархией"
+
+#: views_hst_filter.views.inc:15
+msgid "Display content if it has the selected taxonomy terms, or children of the selected terms. Filter consist of the dynamic related fields of selection (one field for each level of vocabulary) which are worked through Ajax."
+msgstr "Вывод содержимого, привязанного к выбранному термину таксономии или его дочерним терминам. Фильтр предоставляет отдельные поля для каждого уровня иерархии, работающие через Ajax."
+
+#: views_hst_filter_handler_filter.inc:37
+msgid "vocabulary is"
+msgstr "словарь"
+
+#: views_hst_filter_handler_filter.inc:79
+msgid "Label"
+msgstr "Метка"
+
+#: views_hst_filter_handler_filter.inc:99
+msgid "Vocabulary"
+msgstr "Словарь"
+
+#: views_hst_filter_handler_filter.inc:101
+msgid "Select which vocabulary to show terms for in the regular options."
+msgstr "Выберите словарь, из которого будете выбирать термины."
+
+#: views_hst_filter_handler_filter.inc:125
+msgid "Limit depth for"
+msgstr "Ограничить глубину"
+
+#: views_hst_filter_handler_filter.inc:128
+msgid "The max depth of level of taxonomy term available for selection of user. If 0 will no limit."
+msgstr "Максимальный уровень термина таксономии, доступный пользователю для выбора. Если устанавлен в 0, то уровень не ограничивается."
+
+#: views_hst_filter_handler_filter.inc:133
+msgid "Add nodes counter to each term"
+msgstr "Добавить счетчик нод"
+
+#: views_hst_filter_handler_filter.inc:134
+msgid "If checked to each item in select box will be added counter of related nodes. A bit of slower than without it."
+msgstr "Если отмечено, к каждому термину в списках выбора будет добавлено количество отмеченных им нод. Снижает скорость работы фильтра."
+
+#: views_hst_filter_handler_filter.inc:140
+msgid "Hide empty terms"
+msgstr "Скрывать термины без нод"
+
+#: views_hst_filter_handler_filter.inc:141
+msgid "If checked the terms without related nodes will not added to select box. A bit of slower than without it."
+msgstr "Если отмечено, термины, у которых нет привязанных нод не будут доступны для выбора. Снижает скорость работы фильтра."
+
+#: views_hst_filter_handler_filter.inc:147
+msgid "Inline wrapper"
+msgstr "Вывод полей в линию"
+
+#: views_hst_filter_handler_filter.inc:148
+msgid "If checked to each select box will be added class 'container-inline'."
+msgstr "Если отмечено, поля будут выводится в линию. В противном случае - один под другим."
+
+#: views_hst_filter_handler_filter.inc:218
+msgid "<Any>"
+msgstr "<Любой>"
+
+#: views_hst_filter_handler_filter.inc:218
+msgid "- Any -"
+msgstr "- Любой -"
+
+#: views_hst_filter.info:0
+msgid "Views hst filter"
+msgstr ""
+
+#: views_hst_filter.info:0
+msgid "The filter with hierarchical select of taxonomy terms."
+msgstr "Фильтр с иерархическим выбором терминов таксономии."
+
+#: views_hst_filter.info:0
+msgid "Views"
+msgstr "Представления"
+

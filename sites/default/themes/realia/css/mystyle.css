@@ -1,0 +1,864 @@
+
+/* font-family: "OpenSansRegular"; */
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenS") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+@font-face{
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+@font-face{
+    font-family: "OpenSansItalic";
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+
+    url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+
+    url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "OpenSansSemiBoldItalic";
+    src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+
+    url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
+
+    url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face{
+    font-family: "OpenSansSemiBold";
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face{
+    font-family: "OpenSansRegularItalic";
+    src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot?#iefix")format("embedded-opentype"),
+
+    url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"),
+
+    url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face{
+    font-family: "OpenSansBoldItalic";
+    src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot?#iefix")format("embedded-opentype"),
+
+    url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"),
+
+    url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face{
+    font-family: "OpenSansExtraBoldItalic";
+    src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
+
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face{
+    font-family: "OpenSansExtraBold";
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face{
+    font-family: "OpenSansBold";
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+
+    url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+
+    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansLight"; */
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansLightItalic"; */
+@font-face {
+    font-family: "OpenSansLightItalic";
+    src: url("../fonts/OpenSansLightItalic.ttf");
+    src: url("../fonts/OpenSansLightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansItalic"; */
+@font-face {
+    font-family: "OpenSansItalic";
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot");
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansBold"; */
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansExtraBold"; */
+@font-face {
+    font-family: "OpenSansExtraBold";
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansExtraBoldItalic"; */
+@font-face {
+    font-family: "OpenSansExtraBoldItalic";
+    src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+    src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansBoldItalic"; */
+@font-face {
+    font-family: "OpenSansBoldItalic";
+    src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot");
+    src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansRegularItalic"; */
+@font-face {
+    font-family: "OpenSansRegularItalic";
+    src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot");
+    src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"),
+    url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansSemiBold"; */
+@font-face {
+    font-family: "OpenSansSemiBold";
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansSemiBoldItalic"; */
+@font-face {
+    font-family: "OpenSansSemiBoldItalic";
+    src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
+    src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "stampsproflex"; */
+@font-face {
+    font-family: "StampsProFlex";
+    src: url("../fonts/stampsproflex.ttf");
+    src: url("../fonts/stampsproflex.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body.header-light .breadcrumb-wrapper {
+    display: none;
+}
+.front .view-apartments{
+    display: none;
+}
+.front h1.page-header{
+    display: none;
+}
+.front #navigation{
+    display: none;
+}
+#header{
+    background-color: #e7e7e7;
+}
+.mc-bigimg{
+    height:630px;
+    background: url(/sites/default/themes/realia/img/mainimg1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+
+#wrapper-outer.no-triptych #content{
+    padding-bottom: 0 !important;
+}
+
+
+@media (min-width: 1200px){
+
+[class*="span"]{
+    min-height: 0;
+}
+
+
+
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-phone{
+    line-height: 40px;
+    width: 137px;
+    height: 91px;;
+}
+}
+.mc-bigimg{
+    position: relative;
+}
+.mc-bigimg__h{
+    width: 780px;
+    margin: 0 auto;
+    padding-top: 66px;
+    text-align: center;
+    color: #fff;
+    font-family: 'StampsProFlex' , 'OpenSansBold', 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+
+.mc-bigimg__h h1{
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 49px;
+}
+.mc-bigimg__h h2{
+    color:#f8f8f8;
+    font-family: 'OpenSansBold', 'Arial', sans-serif;
+    text-transform: none;
+    margin-top: 0;
+}
+body{
+    font-family: 'OpenSansRegular', 'Arial', sans-serif !important;
+}
+.mc-bigimg__help{
+    height: 100px;
+    width: 220px;
+    padding-right: 50px;
+    background: url(../img/strelka.png) no-repeat 100% 50%;
+    font-family: 'OpenSansLightItalic', 'OpenSansItalic', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 73px;
+    left: 50%;
+    margin-left: -314px;
+    color:#fff;
+    l: ;;;
+}
+.front #block-multiblock-3{
+    background-color: #747474;
+    position: absolute;
+    bottom: 30px;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -400px;
+    padding: 12px 20px 0px;
+    z-index: 1000;
+}
+
+.front .chzn-container{
+    width: 110px !important;
+
+}
+
+.front form{
+    margin-bottom: 0 !important;
+}
+
+.front form .views-exposed-widgets .views-exposed-widget label{
+    display: none;
+}
+
+
+
+.front form .views-exposed-widgets .views-exposed-widget .form-item{
+    float: left;
+    width: 110px;
+    margin-right: 20px;
+}
+.front form .views-exposed-widgets #edit-field-price-value-wrapper{
+    display: none;
+}
+.front form .views-exposed-widgets .views-exposed-widget{
+    padding:0px;
+    float:left;
+    font-family:'OpenSansBold', 'Arial', sans-serif !important;
+}
+.front .ez-checkbox{
+    display: none;
+}
+
+.front form .views-exposed-widgets .views-exposed-widget .form-item{
+    width: 110px;
+    margin-bottom: 0;
+    font-family: "OpenSansSemiBold", 'Arial', sans-serif;
+    font-size: 13px;
+}
+.front .region-map{
+    position: relative;
+}
+.front form .views-exposed-widgets #edit-field-bedrooms-value-wrapper, .block-filter form .views-exposed-widgets #edit-field-bathrooms-value-wrapper{
+    width: auto;
+}
+.front #edit-field-contract-type-tid-wrapper{
+    display: none;
+}
+.front #edit-title-wrapper{
+    display: none;
+}
+.front form .views-exposed-widgets .views-submit-button{
+    width: 110px;
+    clear: none;
+    margin-top: 0;
+}
+.front form .views-exposed-widgets #edit-field-bathrooms-value-wrapper{
+    float: left;
+    width: auto;
+}
+
+.front form .views-exposed-widgets .views-exposed-widget .form-item{
+}
+.front .chzn-container .chzn-single{
+    line-height: 25px !important;
+    height: 25px !important;
+}
+.front form .views-exposed-widgets .views-submit-button button{
+    padding: 3px 0px !important;
+    background-color: #fff !important;
+    color: #444;
+    font-size: 13px !important;
+    font-family: 'OpenSansSemiBold', 'Arial', sans-serif !important;
+    margin-top: 0;
+    width: 110px;
+}
+.front form .form-item select{
+    width: 110px !important;
+}
+
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-phone span{
+    line-height: 21px;
+    background-position: left center;
+    display: block;
+    margin-top: 24px;
+}
+.mc-textblue{
+    color:#06a7ea !important;
+}
+#block-menu-menu-usefull-links li:nth-child(4){
+    background-image: none !important;
+    border-bottom: 1px solid #00a9ed;
+}
+
+/* 
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-phone{float:none;width:131px;
+}
+
+
+
+#header-wrapper #header #header-inner .navbar .navbar-inner .info{
+    width: 100%;
+} */
+
+#footer-wrapper #footer-top .webform-client-form .form-item label .form-required{
+    color: #00a9ed;
+}
+
+
+/* 
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-phone{float:none;width:131px;
+}
+
+
+
+#header-wrapper #header #header-inner .navbar .navbar-inner .info{
+    width: 100%;
+} */
+
+.form-required{
+    color: #00a9ed;
+}
+.node-apartment{
+    margin-bottom: 30px;
+}
+ul.pager{
+    margin-bottom: 30px !important;
+}
+.ico-speed{
+    background-image: url("../img/icons/speedometer.png") !important;
+    -webkit-background-size: 18px 18px !important;
+    background-size: 18px 18px !important;
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    padding-left: 25px;
+    
+}
+
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-slogan span{
+    color: #000;
+    line-height: 51px !important;
+    font-size: 19px;
+    padding-left: 6px !important;
+    border-left: 0 solid #f0f0f0 !important;
+    
+}
+/*<br>для <span class="slogan__mark">BMW</span>*/
+
+
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-slogan{
+    margin-top: 19px !important;
+    margin-left: 0 !important;
+    
+}
+#header-wrapper #header #header-inner .navbar .navbar-inner .site-slogan .slogan__mark{
+    font-weight: bold;
+    padding-left: 0 !important;
+}
+
+
+#header-wrapper #header #header-inner .navbar .navbar-inner .logo{
+    margin: 0px 0px 0px 0px !important;
+    
+}
+
+
+
+#footer-wrapper #footer-top{
+    background-color: #2d2d2d !important;
+    
+}
+
+
+
+
+#footer-wrapper{
+    background-color: #222222 !important;
+    
+}
+
+/* .chzn-results li:first-child{
+    display: none !important;
+} */
+/* .ajax-progress:last-child{
+    display: block !important;
+} */
+.chzn-container .chzn-drop{
+    width: 100% !important;
+}
+.region-navigation #block-multiblock-4 label,
+.region-navigation #block-multiblock-4 #edit-field-bezprobega-tid-wrapper{
+    display: none;
+}
+.region-navigation #block-multiblock-4 #edit-field-category-tid-wrapper,
+.region-navigation #block-multiblock-4 #edit-field-detal-tid-wrapper,
+.region-navigation #block-multiblock-4 #edit-field-price-value-wrapper,
+.front #edit-field-nalichie-tid-wrapper,.region-navigation #edit-field-nalichie-tid-wrapper,
+.front #edit-field-probeg-value-wrapper,.region-navigation #edit-field-probeg-value-wrapper,
+.front #edit-field-bezprobega-tid-wrapper
+{
+ display: none;
+}
+.region-navigation #block-multiblock-4 .chzn-container{
+    width: 138px !important;
+}
+.region-navigation #block-multiblock-4 .chzn-single{
+    height: 30px !important;
+}
+.region-navigation #block-multiblock-4 .chzn-single span{
+    line-height: 30px !important;
+}
+.region-navigation #block-multiblock-4 button{
+    margin-top: 0 !important;
+    padding: 0;
+    /* padding: 5px 32px 5px 15px !important; */
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/lupa.png");
+    -webkit-background-size: initial;
+    background-size: initial;
+    background-color: #fff;
+    background-position: center;
+
+}
+.region-navigation #block-multiblock-4 form{
+    margin-bottom: 0 !important;
+}
+.region-navigation #block-multiblock-4{
+    /* position: absolute;
+    left: 290px; */
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #747474;
+    margin-left: 0;
+
+}
+.region-sidebar-second .views-exposed-form #edit-field-marks-tid-wrapper,
+.region-sidebar-second .views-exposed-form #edit-field-model-tid-wrapper,
+.region-sidebar-second .views-exposed-form #edit-field-model-audi-tid-wrapper,
+.region-sidebar-second .views-exposed-form #edit-field-model-mercedes-benz-tid-wrapper,
+.region-sidebar-second .views-exposed-form #edit-field-model-opel-tid-wrapper,
+.region-sidebar-second .views-exposed-form #edit-field-model-volkswagen-tid-wrapper,
+.region-sidebar-second .views-exposed-form #edit-field-pocolenie-tid-wrapper
+{
+    display: none;
+}
+
+/* Убираем ненужное в ползунке Пробег */
+
+.region-sidebar-second #edit-field-probeg-value-wrapper .form-item{
+    display: none;
+}
+
+.block-filter form .views-exposed-widgets #edit-field-price-value-wrapper label{
+    text-indent: 0 !important;
+}
+.region-sidebar-second .block-filter form .views-exposed-widgets #edit-field-price-value-wrapper label .price{
+    display: inline;
+}
+.block-filter form .views-exposed-widgets #edit-field-price-value-wrapper label,
+.block-filter form .views-exposed-widgets #edit-field-probeg-value-wrapper label
+{
+    margin-bottom: 10px !important;
+}
+.block-filter{
+    background-color: #747474 !important;
+}
+.region-sidebar-second .views-exposed-form button{
+    background-color: #fff !important;
+    color: #000;
+}
+.page-list-row-filter .region-navigation{
+    position: relative;
+}
+.page-list-row-filter #block-superfish-2{
+    margin-left: 0;
+}
+.page-list-row-filter #block-multiblock-4 .views-submit-button{
+    padding-right: 0 !important;
+}
+#header-wrapper #header #header-inner .navbar .navbar-inner #btn-nav{
+    display: none !important;
+}
+.mc-infopg__img{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    border: 15px solid #ffffff;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 350px;
+}
+#edit-field-bezprobega-tid-wrapper .form-item.form-type-bef-checkbox{
+    width: 100% !important;
+}
+.block-important{
+    display: block !important;
+}
+.chzn-disabled .chzn-results,
+.chzn-disabled .chzn-search{
+    display:none;
+}
+#footer-top .block-title a:hover{
+    text-decoration: none;
+}
+.page-poisk-detaley .view-content {
+    margin-bottom: 30px;
+}
+#block-superfish-2{
+    margin-left: 0px;
+}
+.region-sidebar-second [id^='edit-field-pocolenie'],
+.region-sidebar-second #edit-apartments-listing-row-filtered-hst-filter-13-wrapper{
+    display: none;
+}
+@media (max-width: 1200px) and (min-width: 980px){
+    #footer-wrapper #footer-top table.contact th {
+        background-position: 4px 4px !important;
+        display: block !important;
+        padding-bottom: 12px;
+        padding-left: 35px;
+        padding-top: 12px;
+        text-align: left !important;
+    }
+    #footer-wrapper #footer-top table.contact td {
+        display: table !important;
+        padding-bottom: 10px !important;
+    }
+    #edit-field-nalichie-tid-wrapper .form-item{
+        width: 100%;
+    }
+    #edit-field-probeg-value-wrapper .value,
+    #edit-field-price-value-wrapper .value{
+        display: block;
+        text-align: left;
+    }
+    #block-multiblock-4{
+        width: 500px;
+    }
+    #block-realia-blocks-header-contact .info{
+        float: none !important;
+        padding-top: 0px;        
+    }
+    #block-realia-blocks-header-contact .site-email{
+        float: left !important;
+        line-height: 65px !important;
+        margin-left: 0px;
+    }
+    #block-realia-blocks-header-contact .site-phone{
+        float: left !important;
+        line-height: 90px !important;
+        margin-left: 40px !important;
+        width: 137px;
+    }
+    #block-realia-blocks-header-contact .site-phone span{
+        margin-top: 12px !important;
+    }
+}
+@media (max-width: 979px) and (min-width: 768px){
+    #edit-field-nalichie-tid-wrapper .form-item{
+        width: 100%;
+    }
+    #edit-field-probeg-value-wrapper .value,
+    #edit-field-price-value-wrapper .value{
+        display: block;
+        text-align: left;
+    }
+}
+.views-widget-filter-views_hst_filter{
+    padding-right: 0 !important;
+}
+.views-hst-filter .form-item{
+    float: left;
+    padding-right: 1em;
+}
+.front .views-hst-filter .form-item{
+    padding-right: 0;
+}
+#block-multiblock-4 .views-submit-button{
+    padding-right: 0 !important;
+}
+#edit-field-price-value-wrapper .price + .price,.ajax-progress,
+.price + .price{
+    display: none !important;
+}
+.search-advanced {
+    display: none;
+}
+.affix{
+  top: 0px;
+  z-index: 9999 !important;
+}
+.affix-bottom{
+    position: absolute;
+}
+#block-views-agent-block.affix,
+#block-views-agent-block.affix-bottom{
+        width: 220px;
+    } 
+@media (min-width: 1200px) {
+   #block-views-agent-block.affix,
+   #block-views-agent-block.affix-bottom{
+        width: 270px;
+    } 
+}
+@media (max-width: 979px) and (min-width: 768px){
+   #block-views-agent-block.affix,
+   #block-views-agent-block.affix-bottom{
+        width: 166px;
+    }
+    .affix{
+        top:5px;
+    }
+}
+@media (max-width: 767px){
+    #block-views-agent-block.affix,
+    #block-views-agent-block.affix-bottom{
+        display: none;
+    } 
+    .affix{
+        top:5px;
+    }
+}
+.chzn-container{
+    display: inline-block !important;
+}
+.region-sidebar-second #edit-apartments-listing-row-filtered-hst-filter-10-wrapper .form-item{
+    width: 100%;
+}
+.logo img{
+    height: 68px;
+}
+#footer-wrapper #footer #footer-inner .nav li a.vk {
+    background-image: url("../img/share/vk1.png");
+    background-size: 37px 20px;
+    width: 38px;
+}
+#footer-wrapper #footer-top .webform-client-form .form-item label .form-required {
+    color: #00a9ed !important;
+}
+.field-slideshow-wrapper{
+    position: relative;
+}
+.field-slideshow-pager{
+    margin: 14px 20px !important;
+    width: auto !important;
+}
+.field-slideshow-controls{
+    bottom: -31px;
+    margin: 0px;
+    position: relative;
+    z-index: 100;
+    width: 100%;
+}
+.field-slideshow-wrapper .prev {
+    display: block;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    background-color: #06a7ea;
+    background-image: url("../img/arrow-left-white.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 8px 11px;
+    color: transparent;
+    cursor: pointer;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    top: 50%;
+    width: 40px;
+}
+.field-slideshow-wrapper .prev{    
+    float: left;
+    width: auto;
+    display: block;
+}
+.field-slideshow-wrapper .next{
+    display: block;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    background-color: #06a7ea;
+    background-image: url("../img/arrow-right-white.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 8px 11px;
+    color: transparent;
+    cursor: pointer;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    right: 0px;
+    top: 50%;
+    width: 40px;
+}
+.field-slideshow-wrapper .next{
+    float: right;
+    width: auto;
+    display: block; 
+}
+.field-slideshow-pager li{
+    transition: opacity 0.2s linear;
+    opacity: .4;
+    width: auto !important;
+}
+.field-slideshow-pager li.activeSlide{
+    opacity: 1;
+}
+.field-name-field-gallery-images .field-label{
+    display: none;
+}
+/*.field-slideshow{
+    height: auto !important;
+}*/
+.field-slideshow-carousel{
+    position: relative;
+}
+ .not-found{
+    background-image: url("/sites/default/files/logo404.png") !important;
+    background-size: 351px 206px !important;
+} 
+.alert-block{
+    display: none;
+}
